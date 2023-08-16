@@ -1,0 +1,308 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700|Work+Sans:300,400,500,600,700&display=swap);
+
+html {
+  font-family:sans-serif;
+}
+
+body {
+  margin:0
+}
+
+header {   
+  display:flex;
+justify-content: space-around;
+padding-top: 10px ;
+position: fixed;
+width: 100%;
+background-color: #f6f8f8;
+
+
+}
+
+.logo-docplanner {
+  width:268px;
+  height:33px;
+  padding-top: 10px;
+
+}
+
+.dropmenu {
+display: none;
+position: absolute;
+right: 250px;
+padding: 5px;
+list-style: none;
+color: #f6f8f8;
+box-shadow: 0 5px 10px 0 #d3cfc9;
+padding-inline-end: 5px;
+padding-inline-start: 5px;
+background-color: #f6f8f8;
+
+}
+
+.menu {
+  display:flex;
+}
+.menu-item {
+  list-style: none;
+  margin-left: 20px;
+  color : #ababab ;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 30px;
+
+}
+
+
+.menu-item:hover .dropmenu {
+display:flex;
+flex-direction: column;
+padding: 5px;
+color: #ababab;
+
+}
+
+.dropmenu-item:hover {
+  color: #00b39b ;
+background-color: #f6f8f8;
+}
+
+.first-part {
+  padding-top: 150px;
+  text-align: center;
+  margin-bottom: 50px;
+
+
+}
+
+.first-part h1 {
+margin:40px;
+color: #00b39b;
+font-family: Arial, Helvetica, sans-serif;
+font-weight:300;
+font-size: 34px;
+word-spacing: 0;
+
+}
+.para {
+display:flex;
+justify-content: center;
+text-align: left;
+font-family: Roboto,Arial,sans-serif;
+color: #ababab; 
+line-height: 28px;
+
+
+
+
+}
+
+.para p {
+  height: 112px;
+  width: 477.5px;
+  padding: 10px, 10px, 10px, 10px;
+  margin-left: 20px ;
+
+}
+
+.box h1 {
+  color: #f6f8f8;
+  font-size: 26px;
+  font-weight: 300;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+.box h2 {
+  color: #f6f8f8;
+  font-size: 24px;
+  font-weight:100;
+}
+.second-part {
+display: flex;
+justify-content: center;
+margin-bottom: 50px;
+
+}
+.box {
+  border-radius:10px;
+  margin-left: 20px ;
+  padding:2em 2em 0;
+  height:305px;
+  width: 250px;
+   
+
+}
+#box1 {
+  background-color: #00ccb1;
+
+}
+
+#box2 {
+  background-color: #3d83df;
+
+}
+
+#box3 {
+  background-color: #1b2734;
+
+}
+
+#box-green{
+  background-color:#00ccb1 ;
+  border :none;
+  color: white;
+  text-decoration: underline;
+}
+#box-green option{
+  background-color: #747474;
+  color: black;
+}
+
+#box-blu{
+  background-color:#3d83df ;
+  border :none;
+  color: white;
+  text-decoration: underline;
+}
+#box-blu option{
+  background-color: #747474;
+  color: black;
+}
+
+#box-black {
+  background-color:#1b2734 ;
+  border :none;
+  color: white;
+  text-decoration: underline;
+}
+#box-black option{
+  background-color: #747474;
+  color: black;
+}
+
+
+.second-part {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+
+}
+
+.second-part h1 {
+
+  font-size:1.625em;
+  font-weight:400;
+  color:#fff;
+  margin:.3em 0
+}
+
+.brands__logos {
+
+  align-items:center;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:space-between;
+  font-size:0;
+  list-style:none;
+  width:67%
+}
+
+.third-part {
+font-size:1rem;
+display:flex;
+position: relative;
+margin-left:200px;
+padding:5px 0 5px 5px;
+width:80%;
+}
+
+.brands__logos li {
+  font-size:1rem;
+  display:flex;
+  margin-top:0;
+  padding:5px 0 5px 5px;
+  width:25%
+ 
+}
+
+.third-part h1 {
+   outline:0;
+  background:none;
+    color:#00b39b;
+  font-family:Roboto,Arial,sans-serif;
+  font-weight:400;
+  letter-spacing:.04em;
+   float:left;
+  width:33%;
+  font-size:1.625em;
+  margin:.25em 0 .35em;
+  padding-right:1em
+}
+
+
+.brands__logos .clinicloud:hover,
+.brands__logos .gipo:hover,
+.brands__logos .tuotempo:hover,
+.brands__logos .jameda:hover,
+.brands__logos .feegow:hover {
+filter:none;
+opacity:1;
+
+}
+
+.tuotempo img {
+height:16px;
+
+}
+
+
+.brands__logos .clinicloud img,
+.brands__logos .gipo img {
+width:12.5%;
+
+}
+
+.brands__logos .clinicloud img,
+.brands__logos .gipo img {
+  width:33.33333%;
+
+}
+.brands__logos .jameda img {
+  height: 32px;
+}
+
+
+
+.brands__logos .clinicloud img,
+.brands__logos .gipo img {
+  height:20px
+
+}
+
+.brands__logos .clinicloud img,
+.brands__logos .gipo img {
+height:34px;
+
+}
+
+.brands__logos li svg {
+  padding-left: 0;
+  text-align: center;
+
+}
+
+.brands__logos li path, .jameda {
+transition:all .2s ease 0s;
+fill:hsla(0,0%,67%,.7)
+}
+.brands__logos li:hover path {
+fill:#00bfa5;
+}
+.brands__logos li img{
+  filter: grayscale(100%);
+}
+.brands__logos li img:hover{
+  filter: grayscale(0);
+}
